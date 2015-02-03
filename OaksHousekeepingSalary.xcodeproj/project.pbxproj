@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		6B8A289D1A7FA646000F7815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A289C1A7FA646000F7815 /* AppDelegate.swift */; };
 		6B8A28A01A7FA646000F7815 /* OaksHousekeepingSalary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A289E1A7FA646000F7815 /* OaksHousekeepingSalary.xcdatamodeld */; };
-		6B8A28A21A7FA646000F7815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A28A11A7FA646000F7815 /* ViewController.swift */; };
 		6B8A28A51A7FA646000F7815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A28A31A7FA646000F7815 /* Main.storyboard */; };
 		6B8A28A71A7FA646000F7815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A28A61A7FA646000F7815 /* Images.xcassets */; };
 		6B8A28AA1A7FA646000F7815 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A28A81A7FA646000F7815 /* LaunchScreen.xib */; };
 		6B8A28B61A7FA646000F7815 /* OaksHousekeepingSalaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A28B51A7FA646000F7815 /* OaksHousekeepingSalaryTests.swift */; };
+		6B8A28C01A7FA864000F7815 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A28BF1A7FA864000F7815 /* DetailTableViewController.swift */; };
+		6B8A28C21A7FB769000F7815 /* BedroomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A28C11A7FB769000F7815 /* BedroomTableViewController.swift */; };
+		6B8A28C41A7FB78F000F7815 /* JoinOrSplitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A28C31A7FB78F000F7815 /* JoinOrSplitTableViewController.swift */; };
+		6B8A28C61A7FB883000F7815 /* DepartureOneBedroomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A28C51A7FB883000F7815 /* DepartureOneBedroomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +34,16 @@
 		6B8A289B1A7FA646000F7815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B8A289C1A7FA646000F7815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B8A289F1A7FA646000F7815 /* OaksHousekeepingSalary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OaksHousekeepingSalary.xcdatamodel; sourceTree = "<group>"; };
-		6B8A28A11A7FA646000F7815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B8A28A41A7FA646000F7815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B8A28A61A7FA646000F7815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B8A28A91A7FA646000F7815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6B8A28AF1A7FA646000F7815 /* OaksHousekeepingSalaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OaksHousekeepingSalaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8A28B41A7FA646000F7815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B8A28B51A7FA646000F7815 /* OaksHousekeepingSalaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OaksHousekeepingSalaryTests.swift; sourceTree = "<group>"; };
+		6B8A28BF1A7FA864000F7815 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		6B8A28C11A7FB769000F7815 /* BedroomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedroomTableViewController.swift; sourceTree = "<group>"; };
+		6B8A28C31A7FB78F000F7815 /* JoinOrSplitTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinOrSplitTableViewController.swift; sourceTree = "<group>"; };
+		6B8A28C51A7FB883000F7815 /* DepartureOneBedroomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartureOneBedroomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				6B8A289C1A7FA646000F7815 /* AppDelegate.swift */,
-				6B8A28A11A7FA646000F7815 /* ViewController.swift */,
+				6B8A28BF1A7FA864000F7815 /* DetailTableViewController.swift */,
+				6B8A28C11A7FB769000F7815 /* BedroomTableViewController.swift */,
+				6B8A28C51A7FB883000F7815 /* DepartureOneBedroomTableViewCell.swift */,
+				6B8A28C31A7FB78F000F7815 /* JoinOrSplitTableViewController.swift */,
 				6B8A28A31A7FA646000F7815 /* Main.storyboard */,
 				6B8A28A61A7FA646000F7815 /* Images.xcassets */,
 				6B8A28A81A7FA646000F7815 /* LaunchScreen.xib */,
@@ -215,8 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B8A28A21A7FA646000F7815 /* ViewController.swift in Sources */,
+				6B8A28C21A7FB769000F7815 /* BedroomTableViewController.swift in Sources */,
+				6B8A28C41A7FB78F000F7815 /* JoinOrSplitTableViewController.swift in Sources */,
+				6B8A28C01A7FA864000F7815 /* DetailTableViewController.swift in Sources */,
 				6B8A28A01A7FA646000F7815 /* OaksHousekeepingSalary.xcdatamodeld in Sources */,
+				6B8A28C61A7FB883000F7815 /* DepartureOneBedroomTableViewCell.swift in Sources */,
 				6B8A289D1A7FA646000F7815 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
